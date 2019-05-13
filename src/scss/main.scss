@@ -11,6 +11,7 @@
 
 /* === Helpers === */
 /* Vendor prefix functions, mixins, colors, breakpoints */
+@import 'helpers/colors';
 @import 'helpers/mixins';
 
 /* === Base === */
@@ -22,9 +23,11 @@
 
 /* === Layout === */
 /* Grid, header, footer, sidebar, forms, parts of pages */
+@import 'layout/page';
 
 /* === Pages === */
 /* Specific styles for individual pages */
+@import 'pages/home';
 
 /* === Themes === */
 /* Any themes, like light/dark */

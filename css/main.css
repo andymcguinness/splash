@@ -10,6 +10,14 @@
 /* === Helpers === */
 /* Vendor prefix functions, mixins, colors, breakpoints */
 /**
+ * File: colors.scss
+ * Description: Defines the mixins for the application
+ * Dependencies: none
+ *
+ * @package delta
+ */
+/* === Application Colors === */
+/**
  * File: mixins.scss
  * Description: Defines the mixins for the application
  * Dependencies: none
@@ -101,9 +109,57 @@ li a {
 /* Buttons, dropdowns, carousels */
 /* === Layout === */
 /* Grid, header, footer, sidebar, forms, parts of pages */
+/**
+ * File: page.scss
+ * Description: Basic styles for a page
+ * Dependencies: None
+ *
+ * @package splash
+ */
+/* === General Styles === */
 /* === Pages === */
 /* Specific styles for individual pages */
+/**
+ * File: home.scss
+ * Description: Styles for the homepage specifically
+ * Dependencies: None
+ *
+ * @package splash
+ */
+/* === Homepage Background === */
+html {
+  height: 100%;
+  width: 100%;
+  background: url(../images/bg.jpg) no-repeat center center fixed #2B303A;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* === Text Content Styling === */
+.page.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #D3D5D4;
+}
+.page.home .page__content {
+  width: auto;
+}
+.page.home .content__header {
+  float: none;
+  width: auto;
+  font-size: 6rem;
+  font-weight: bold;
+}
+.page.home .content__text {
+  font-size: 2rem;
+  font-style: italic;
+}
+
 /* === Themes === */
 /* Any themes, like light/dark */
-
-/*# sourceMappingURL=main.css.map */

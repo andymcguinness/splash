@@ -1,0 +1,40 @@
+/**
+ * File: home.scss
+ * Description: Styles for the homepage specifically
+ * Dependencies: None
+ *
+ * @package splash
+ */
+
+/* === Homepage Background === */
+html {
+  height: 100%;
+  width: 100%;
+  background: url(../images/bg.jpg) no-repeat center center fixed $color__black;
+  @include vendor-prefix('background-size', 'cover');
+}
+
+
+/* === Text Content Styling === */
+.page.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: $color__white;
+
+  .page__content{ width: auto; }
+
+  .content__header {
+    float: none;
+    width: auto;
+    font-size: 6rem;
+    font-weight: bold;
+  }
+
+  .content__text {
+    font-size: 2rem;
+    font-style: italic;
+  }
+}
