@@ -6,3 +6,6 @@ node_modules/
 
 # SASS files
 .sass-cache/
+
+# Mac stuff
+.DS_Store
