@@ -1,0 +1,8 @@
+# git files
+.git/
+
+# npm stuff
+node_modules/
+
+# SASS files
+.sass-cache/
