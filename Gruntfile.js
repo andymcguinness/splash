@@ -10,7 +10,19 @@
 module.exports = function(grunt) {
 
   /* Init Config */
-  grunt.initConfig({});
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+    sass: {
+      dist: {
+        options: {
+          style: 'expanded'
+        },
+        files: {
+          'css/main.css': 'src/scss/main.scss'
+        }
+      }
+    }
+  });
 
   /* Load Tasks */
   grunt.loadNpmTasks('grunt-contrib-sass');

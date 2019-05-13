@@ -1,0 +1,109 @@
+/**
+ * File: main.scss
+ * Description: Sourcemap for the project
+ * Dependencies: None
+ *
+ * @package splash
+ */
+/* === Vendor === */
+/* Any vendor dependencies */
+/* === Helpers === */
+/* Vendor prefix functions, mixins, colors, breakpoints */
+/**
+ * File: mixins.scss
+ * Description: Defines the mixins for the application
+ * Dependencies: none
+ *
+ * @package gamma
+ */
+/* === Vendor Prefix Mixin === */
+/* === Calculating Rems === */
+/* === Base === */
+/* Reset/typography */
+/**
+ * File: reset.scss
+ * Description: Basic reset for the framework
+ * Dependencies: None
+ *
+ * @package splash
+ */
+/* === General Reset === */
+* {
+  /* Positioning */
+  position: relative;
+  vertical-align: inherit;
+  /* Box Model */
+  display: block;
+  float: left;
+  height: auto;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  /* Typography */
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: inherit;
+  word-spacing: normal;
+  word-wrap: break-word;
+  /* Visual */
+  background: transparent;
+  border: none;
+  list-style: none;
+  outline: none;
+  /* Misc */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.clearfix {
+  clear: both;
+  display: table;
+  float: none;
+}
+
+/* === Fixing Things After Reset === */
+script,
+style,
+meta,
+title {
+  display: none;
+}
+
+br,
+i,
+b,
+span,
+s,
+.icon,
+strong,
+b,
+em,
+sup,
+li a {
+  display: inline;
+  float: none;
+  width: auto;
+}
+
+/* === Components === */
+/* Buttons, dropdowns, carousels */
+/* === Layout === */
+/* Grid, header, footer, sidebar, forms, parts of pages */
+/* === Pages === */
+/* Specific styles for individual pages */
+/* === Themes === */
+/* Any themes, like light/dark */
+
+/*# sourceMappingURL=main.css.map */
